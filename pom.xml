@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>common-action-dal</module>
+        <module>common-action-service</module>
+        <module>common-action-web</module>
+    </modules>
+
+    <parent>
+        <groupId>cn.com.xvym</groupId>
+        <artifactId>xboot-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>common-action</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <!--指定字符编码-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncpding>UTF-8</project.reporting.outputEncpding>
+        <!--指定Java版本-->
+        <java.version>1.8</java.version>
+        <!--指定项目版本-->
+        <revision>0.0.1-SNAPSHOT</revision>
+    </properties>
+
+</project>
